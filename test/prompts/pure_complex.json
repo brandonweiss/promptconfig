@@ -1,0 +1,42 @@
+{
+  "prompt": [
+    [],
+    ["working_directory", "space", "git_branch_name", "space", "git_behind_upstream", "git_ahead_of_upstream"],
+    ["prompt_character", "space"]
+  ],
+  "components": [
+    {
+      "key": "working_directory",
+      "function": "working_directory",
+      "color": "blue"
+    }, {
+      "key": "git_branch_name",
+      "function": "git_branch_name",
+      "color": 242
+    }, {
+      "key": "git_behind_upstream",
+      "function": "git_behind_upstream",
+      "conditions": {
+        "true": "⇣"
+      },
+      "color": "cyan"
+    }, {
+      "key": "git_ahead_of_upstream",
+      "function": "git_ahead_of_upstream",
+      "conditions": {
+        "true": "⇡"
+      },
+      "color": "cyan"
+    }, {
+      "key": "prompt_character",
+      "value": "❯",
+      "color": {
+        "function": "exit_status",
+        "conditions": {
+          "true": "magenta",
+          "false": "red"
+        }
+      }
+    }
+  ]
+}

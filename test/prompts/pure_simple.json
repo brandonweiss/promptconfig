@@ -1,0 +1,19 @@
+{
+  "prompt": [
+    [],
+    ["prompt_character", "space"]
+  ],
+  "components": [
+    {
+      "key": "prompt_character",
+      "value": "❯",
+      "color": {
+        "function": "exit_status",
+        "conditions": {
+          "true": "magenta",
+          "false": "red"
+        }
+      }
+    }
+  ]
+}
