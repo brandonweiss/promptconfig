@@ -54,7 +54,7 @@ Bash is hard. It’s an arcane language and environment with a steep learning cu
 
 Unfortunately, customizing your prompt correctly requires a disproportionately high understanding of how Bash and the terminal work relative to what you’re trying to actually do. The internet is filled with recommendations that will break your prompt in subtle ways that aren’t immediately obvious and later you might not understand are caused by your custom prompt. I’m speaking from personal experience. 😭
 
-The bar It really shouldn’t have to be that complicated and hopefully
+It shouldn’t be that complicated and hopefully now it isn’t.
 
 ## Installation
 
