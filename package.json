@@ -1,6 +1,6 @@
 {
   "name": "promptconfig",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Craft a custom terminal prompt with JSON.",
   "author": {
     "name": "Brandon Weiss",
