@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-	<img src="media/logomark.svg" width="300px" alt="PromptConfig">
+	<img src="media/logomark.svg?sanitize=true" width="300px" alt="PromptConfig">
 	<br>
 	<br>
   PromptConfig
