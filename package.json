@@ -7,13 +7,20 @@
     "email": "desk@brandonweiss.me"
   },
   "bin": "cli.js",
-  "engines": {
-    "node": ">= 8"
-  },
   "directories": {
     "lib": "lib",
     "test": "test"
   },
+  "engines": {
+    "node": ">= 8"
+  },
+  "keywords": [
+    "bash",
+    "git",
+    "prompt",
+    "shell",
+    "terminal"
+  ],
   "license": "MIT",
   "repository": "github:brandonweiss/promptconfig",
   "scripts": {
