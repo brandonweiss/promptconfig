@@ -35,7 +35,7 @@ if (file) {
     process.exit(1)
   }
 
-  console.log(bash)
+  process.stdout.write(bash)
 } else {
   cli.showHelp()
 }
