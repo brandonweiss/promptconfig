@@ -29,7 +29,7 @@ if (file) {
   let configuration = JSON.parse(json)
 
   try {
-    var bash = prompt({ options: configuration })
+    var bash = prompt(configuration)
   } catch(error) {
     console.error(error.message)
     process.exit(1)
