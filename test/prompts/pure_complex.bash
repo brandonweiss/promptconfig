@@ -8,14 +8,7 @@ function _promptconfig_git_in_directory() {
 
 function _promptconfig_git_branch_name() {
   if _promptconfig_git_in_directory; then
-    local branch=$(git symbolic-ref HEAD 2> /dev/null | sed -e 's|^refs/heads/||')
-    local revision=$(git rev-parse HEAD 2> /dev/null | cut -b 1-7)
-
-    if [ -n $branch ]; then
-      printf $branch
-    else
-      printf $revision
-    fi
+    printf "$(git branch 2> /dev/null | grep '^*' | colrm 1 2)"
   fi
 }
 
