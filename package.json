@@ -46,5 +46,10 @@
       "core-js/fn/array/flat-map",
       "core-js/fn/array/flatten"
     ]
+  },
+  "esm": {
+    "cjs": {
+      "dedefault": true
+    }
   }
 }
