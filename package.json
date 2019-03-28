@@ -43,8 +43,8 @@
   "ava": {
     "require": [
       "esm",
-      "core-js/fn/array/flat-map",
-      "core-js/fn/array/flatten"
+      "core-js/features/array/flat",
+      "core-js/features/array/flat-map"
     ]
   },
   "esm": {
