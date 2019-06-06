@@ -28,7 +28,7 @@
     "test:watch": "ava --watch"
   },
   "devDependencies": {
-    "ava": "1.4.1",
+    "ava": "2.0.0",
     "np": "^5.0.3"
   },
   "dependencies": {
