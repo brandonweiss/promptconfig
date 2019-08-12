@@ -58,16 +58,10 @@ It shouldn’t be that complicated and hopefully now it isn’t.
 
 ## Installation
 
-Install it globally:
+Install it globally using npm:
 
 ```shell
 ❯ npm install --global promptconfig
-```
-
-Or using Yarn:
-
-```shell
-❯ yarn global add promptconfig
 ```
 
 ## Usage
