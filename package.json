@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "ava": "2.4.0",
-    "np": "^5.1.0"
+    "np": "^5.1.1"
   },
   "dependencies": {
     "core-js": "^3.2.1",
