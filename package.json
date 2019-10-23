@@ -12,7 +12,7 @@
     "test": "test"
   },
   "engines": {
-    "node": ">= 8"
+    "node": ">= 12"
   },
   "keywords": [
     "bash",
@@ -32,7 +32,6 @@
     "np": "^5.1.1"
   },
   "dependencies": {
-    "core-js": "^3.3.3",
     "dedent": "^0.7.0",
     "esm": "^3.2.25",
     "glob": "^7.1.5",
@@ -42,9 +41,7 @@
   },
   "ava": {
     "require": [
-      "esm",
-      "core-js/features/array/flat",
-      "core-js/features/array/flat-map"
+      "esm"
     ]
   },
   "esm": {
