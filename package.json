@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "ava": "2.4.0",
-    "np": "^5.1.1"
+    "np": "^5.1.2"
   },
   "dependencies": {
     "dedent": "^0.7.0",
