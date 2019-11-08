@@ -34,7 +34,7 @@
   "dependencies": {
     "dedent": "^0.7.0",
     "esm": "^3.2.25",
-    "glob": "^7.1.5",
+    "glob": "^7.1.6",
     "indent-string": "^4.0.0",
     "meow": "^5.0.0",
     "update-notifier": "^3.0.1"
