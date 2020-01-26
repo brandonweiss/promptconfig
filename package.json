@@ -28,6 +28,7 @@
     "test:watch": "ava --watch"
   },
   "devDependencies": {
+    "@ava/babel": "^1.0.0",
     "ava": "3.0.0",
     "np": "^5.2.1"
   },
@@ -38,11 +39,6 @@
     "indent-string": "^4.0.0",
     "meow": "^6.0.0",
     "update-notifier": "^4.0.0"
-  },
-  "ava": {
-    "require": [
-      "esm"
-    ]
   },
   "esm": {
     "cjs": {
