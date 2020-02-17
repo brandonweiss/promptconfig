@@ -30,7 +30,7 @@
   "devDependencies": {
     "@ava/babel": "^1.0.1",
     "ava": "3.3.0",
-    "np": "^6.0.0"
+    "np": "^6.1.0"
   },
   "dependencies": {
     "dedent": "^0.7.0",
