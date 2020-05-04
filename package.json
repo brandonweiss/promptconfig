@@ -37,7 +37,7 @@
     "esm": "^3.2.25",
     "glob": "^7.1.6",
     "indent-string": "^4.0.0",
-    "meow": "^6.1.0",
+    "meow": "^6.1.1",
     "update-notifier": "^4.1.0"
   },
   "esm": {
